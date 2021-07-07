@@ -1,0 +1,14 @@
+﻿<h4>Another Component</h4>
+
+@inherits Fluxor.Blazor.Web.Components.FluxorComponent
+
+@using Fluxor
+@using BlazorWebAssemblyFluxor.Store.Counter
+
+@inject IState<CounterState> CounterState
+
+<p>Counter value: @CounterState.Value.ClickCount</p>
+
+@code {
+
+}
