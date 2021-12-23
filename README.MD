@@ -154,9 +154,9 @@ namespace BlazorWebAssemblyFluxor.Store.Counter
 
 **NOTES:**
 
-- The components must:
+The components must:
 
-  - Use ***Fluxor***:
+- Use ***Fluxor***:
 ```C#
 @using Fluxor
 ```
